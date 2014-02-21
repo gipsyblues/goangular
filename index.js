@@ -18,6 +18,8 @@ var keyFactory = require('./lib/key_factory');
 var querySync = require('./lib/query_sync');
 var queryFactory = require('./lib/query_factory');
 
+var keyFilter = require('./lib/key_filter');
+
 /** Module Registration */
 
 var goangular = angular.module('goangular', []);
@@ -36,3 +38,5 @@ goangular.factory('$goQuery', [
   '$goConnection',
   queryFactory
 ]);
+
+goangular.filter('keyFilter', keyFilter);

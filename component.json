@@ -17,6 +17,7 @@
     "index.js",
     "lib/query_factory.js",
     "lib/query_sync.js",
+    "lib/key_filter.js",
     "lib/key_factory.js",
     "lib/key_sync.js",
     "lib/connection.js",
